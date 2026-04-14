@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"817aa174c5f77725","type":"text","text":"Project Batmobile","x":-140,"y":-160,"width":250,"height":60},
+		{"id":"562db5c95933bfe4","type":"text","text":"Learning Goals\n- Learn basics of Micro Controllers\n- Learn Arduino IDE\n- Learn Basics of Designing Circuts\n- Practice Engineering Test and Redesign Process","x":-320,"y":-40,"width":250,"height":280},
+		{"id":"e68d184814b19ceb","type":"text","text":"Component Prototypes","x":800,"y":70,"width":250,"height":60},
+		{"id":"356df2df67947964","type":"text","text":"Lego Rear Differential V1","x":1033,"y":172,"width":250,"height":53},
+		{"id":"f65cae69f324484e","type":"text","text":"Lego Rear Differential V2","x":1640,"y":172,"width":250,"height":53},
+		{"id":"992d40cc6179626b","type":"text","text":"- Utilizes Lego Differential Part Found in old Lego Set\n- Simpler smaller design (smarter not harder)\n- More Sturdy (will be better once integrated into car)\n- Less friction than before\n- Still need to Incorporate Motor into design\n- Need to cut some of the Batmobile to make it fit\n- Need to try and make the bat wheels compatible with Lego (otherwise will need to use Lego Wheels)","x":1890,"y":252,"width":286,"height":428},
+		{"id":"5069da3c8797a164","type":"text","text":"- Wheel gear diameter exceeds the wheel diameter, and therefore is too big to fit without scraping the ground\n- Proof of concept, not completely sturdy enough or able to fit into the body","x":1261,"y":297,"width":250,"height":282},
+		{"id":"d1515b7ce27a628a","type":"file","file":"Project Batmobile/Photos/Differential V1/Differential V1 Left.png","x":1084,"y":255,"width":149,"height":84},
+		{"id":"003f3f49cdf5adea","type":"file","file":"Project Batmobile/Photos/Differential V1/Differential V1 Top.png","x":1083,"y":525,"width":151,"height":119},
+		{"id":"520c163a6ffb9184","type":"file","file":"Project Batmobile/Photos/Differential V1/Differential V1 Right.png","x":1084,"y":362,"width":149,"height":137},
+		{"id":"2739df48a6895909","type":"text","text":"Key Feature Goals\n- Working Differential \n- Working Front wheel steering \n- Grappling hook (method to attach and climb walls) (make use of button and gun on front)\n- Brakes?\n\nAdditions (in order of priority):\n- Remote Controls \n- Speakers?\n- Voice Commands?","x":50,"y":126,"width":320,"height":373},
+		{"id":"acbfcfbefb3a9a85","type":"file","file":"Project Batmobile/Design Brainstorm.md","x":52,"y":-40,"width":318,"height":125},
+		{"id":"049d1491813780b9","type":"text","text":"Materials:\n- Micro Controller✅  \n- Lego ✅\n- Batmobile Body✅\n- Rope/string for grappling hook\n- Hook (Lego?)\n- Motor (Differential)✅\n- Servo (steering)✅\n- Another Servo for Grappling hook? (stepping Motor✅)\n- Wires✅\n- Breadboard✅\n\nPossible Additions (in order of Priority):\n- RC components\n- Second Micro Controller for RC \n- Speaker?\n- Microphone?","x":406,"y":130,"width":380,"height":547},
+		{"id":"293c9f1856ab6dc6","type":"text","text":"Look for starter kit with\n- Servo ✅\n- Stepping Motor✅\n- Motor✅\n- Wires✅\n- Breadboard✅ ~~(that will fit on batmobile?)~~\n- ~~RC components~~\n- ~~Speaker?~~\n- ~~Microphone?~~","x":406,"y":720,"width":250,"height":324},
+		{"id":"0a12864edb20852f","type":"text","text":"[Starter Kit Purchased](https://www.amazon.ca/gp/product/B08B4JY95V/ref=ox_sc_act_image_5?smid=AV3WCPW70PEXC&psc=1)\n","x":406,"y":1060,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"2378a9d2314ea068","fromNode":"817aa174c5f77725","fromSide":"bottom","toNode":"562db5c95933bfe4","toSide":"top"},
+		{"id":"e3167beab9fe030f","fromNode":"e68d184814b19ceb","fromSide":"bottom","toNode":"356df2df67947964","toSide":"left"},
+		{"id":"76bab9f11af8349b","fromNode":"356df2df67947964","fromSide":"bottom","toNode":"d1515b7ce27a628a","toSide":"top"},
+		{"id":"8dee59ccc67ebb71","fromNode":"d1515b7ce27a628a","fromSide":"bottom","toNode":"520c163a6ffb9184","toSide":"top"},
+		{"id":"b1e95a59f4759aba","fromNode":"520c163a6ffb9184","fromSide":"bottom","toNode":"003f3f49cdf5adea","toSide":"top"},
+		{"id":"45ad676f5ddac89b","fromNode":"acbfcfbefb3a9a85","fromSide":"top","toNode":"e68d184814b19ceb","toSide":"top"},
+		{"id":"81e0642939dd2f57","fromNode":"293c9f1856ab6dc6","fromSide":"bottom","toNode":"0a12864edb20852f","toSide":"top"},
+		{"id":"bfe94e80d4f46b86","fromNode":"356df2df67947964","fromSide":"right","toNode":"f65cae69f324484e","toSide":"left"},
+		{"id":"058fcb0b8ca89c55","fromNode":"356df2df67947964","fromSide":"right","toNode":"5069da3c8797a164","toSide":"top"},
+		{"id":"daa5e08e069f45e0","fromNode":"f65cae69f324484e","fromSide":"right","toNode":"992d40cc6179626b","toSide":"top"},
+		{"id":"0300740dfb639e9b","fromNode":"817aa174c5f77725","fromSide":"bottom","toNode":"acbfcfbefb3a9a85","toSide":"top"},
+		{"id":"59c512790064d53b","fromNode":"acbfcfbefb3a9a85","fromSide":"bottom","toNode":"2739df48a6895909","toSide":"top"},
+		{"id":"5dda356d46b8488a","fromNode":"acbfcfbefb3a9a85","fromSide":"right","toNode":"049d1491813780b9","toSide":"top"},
+		{"id":"a2ef699f39c67d7d","fromNode":"049d1491813780b9","fromSide":"bottom","toNode":"293c9f1856ab6dc6","toSide":"top"},
+		{"id":"2e19d69d21a87c5b","fromNode":"2739df48a6895909","fromSide":"right","toNode":"049d1491813780b9","toSide":"left"}
+	]
+}
